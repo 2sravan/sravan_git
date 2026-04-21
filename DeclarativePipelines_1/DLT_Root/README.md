@@ -1,4 +1,4 @@
-# New Pipeline 2026-04-03 14:00
+# New Pipeline 
 
 This folder defines all source code for the 'New Pipeline 2026-04-03 14:00' pipeline:
 
