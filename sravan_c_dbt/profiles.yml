@@ -2,18 +2,18 @@ sravan_c_dbt:
   outputs:
     dev:
       catalog: dbt_c_dev
-      host: dbc-33e92f41-90f8.cloud.databricks.com
+      host: xxxxxxxxxxxxxxxxxxxxxxx.cloud.databricks.com
       http_path: /sql/1.0/warehouses/1271f87819e069ba
       schema: default
       threads: 1
-      token: dapi1011d4aa85293f3802ebf5e29b8b9b4b
+      token: xxxxxxxxxxxxxxxxxxxxxxxxx
       type: databricks
     prod:
       catalog: dbt_c_prod
-      host: dbc-33e92f41-90f8.cloud.databricks.com
+      host: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.cloud.databricks.com
       http_path: /sql/1.0/warehouses/1271f87819e069ba
       schema: default
       threads: 1
-      token: dapi1011d4aa85293f3802ebf5e29b8b9b4b
+      token: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
       type: databricks
   target: dev

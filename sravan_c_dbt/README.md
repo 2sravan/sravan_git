@@ -21,7 +21,7 @@ This project implements an end-to-end analytics data pipeline using dbt and Data
 
 ---
 
-## 🏗Architecture
+## Architecture
 
 Data flows through layered transformations:
 
