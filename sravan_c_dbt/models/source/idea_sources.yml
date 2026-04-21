@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: idea_raw
+    database: idea_school_dev
+    schema: source
+    tables:
+      - name: students
+      - name: schools
+      - name: attendance
+      - name: enrollment
+      - name: assessments

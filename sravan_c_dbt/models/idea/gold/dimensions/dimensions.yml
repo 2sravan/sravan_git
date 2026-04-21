@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: dim_student
+    columns:
+      - name: student_id
+        tests:
+          - not_null
+          - unique

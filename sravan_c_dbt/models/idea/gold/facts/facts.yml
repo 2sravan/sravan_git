@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fact_attendance
+    columns:
+      - name: student_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_student')
+              field: student_id
