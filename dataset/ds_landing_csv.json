@@ -1,5 +1,5 @@
 {
-	"name": "ds_csv_generic",
+	"name": "ds_landing_csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ls_adls_gen2",
@@ -23,7 +23,7 @@
 					"value": "@{dataset().tableName}",
 					"type": "Expression"
 				},
-				"fileSystem": "bronze"
+				"fileSystem": "ftrsource"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
