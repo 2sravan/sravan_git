@@ -1,0 +1,15 @@
+{
+	"name": "ftradfdatafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "96cb01cd-803a-490e-8944-9903923d41df",
+		"tenantId": "fea95412-45ae-478d-8fad-a35c13b24ea2"
+	}
+}
