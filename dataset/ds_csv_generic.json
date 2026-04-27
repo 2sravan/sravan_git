@@ -6,10 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"folderName": {
-				"type": "string"
-			},
-			"fileName": {
+			"tableName": {
 				"type": "string"
 			}
 		},
@@ -18,8 +15,14 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "@{dataset().fileName}.csv",
-				"folderPath": "@{dataset().folderName}",
+				"fileName": {
+					"value": "@{dataset().tableName}.csv",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@{dataset().tableName}",
+					"type": "Expression"
+				},
 				"fileSystem": "bronze"
 			},
 			"columnDelimiter": ",",
