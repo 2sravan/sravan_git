@@ -19,10 +19,6 @@
 					"value": "@{dataset().tableName}.csv",
 					"type": "Expression"
 				},
-				"folderPath": {
-					"value": "@{dataset().tableName}",
-					"type": "Expression"
-				},
 				"fileSystem": "ftrsource"
 			},
 			"columnDelimiter": ",",
