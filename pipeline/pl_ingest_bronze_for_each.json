@@ -9,7 +9,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "[\n \"ftr_customer_dim\",\n \"ftr_customer_churn_fact\",\n \"ftr_date_dim\",\n \"ftr_network_dim\",\n \"ftr_product_dim\",\n \"ftr_region_dim\",\n \"ftr_service_area_dim\",\n \"ftr_service_orders_fact\",\n \"ftr_technician_dim\",\n \"ftr_trouble_tickets_fact\"\n]",
+						"value": "@createArray(\n'ftr_customer_dim',\n'ftr_customer_churn_fact',\n'ftr_date_dim',\n'ftr_network_dim',\n'ftr_product_dim',\n'ftr_region_dim',\n'ftr_service_area_dim',\n'ftr_service_orders_fact',\n'ftr_technician_dim',\n'ftr_trouble_tickets_fact'\n)",
 						"type": "Expression"
 					},
 					"activities": [
